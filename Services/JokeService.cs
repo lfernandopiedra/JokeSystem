@@ -65,7 +65,7 @@ namespace Jokes.Controllers
                     listJokes.Add(new Joke() { StrJoke = child["joke"].ToString() });
                 }
 
-                foreach (Joke value in ListJokes)
+                foreach (Joke value in listJokes)
                 {
                     val = value.StrJoke;
                     jokeLenght = CountWords(val);
