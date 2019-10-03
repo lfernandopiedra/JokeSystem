@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Joke loader system</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3 id="joke"></h3>
+
+    </div>
+    <div class="col-md-12">
+        <form action="/Home/Search" method="post">
+           Search jokes by word <input type="text" name="word" />
+            
+            <input type="submit" class="btn-default" value="Search" />
+        </form>
+
+    </div>
+   
+
+
+
+</div>
